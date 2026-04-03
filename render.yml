@@ -1,0 +1,4 @@
+buildCommand: |
+  apt-get update
+  apt-get install -y ffmpeg
+  curl -fsSL https://deno.land/install.sh | sh
