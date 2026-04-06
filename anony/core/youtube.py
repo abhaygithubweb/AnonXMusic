@@ -127,7 +127,7 @@ class YouTube:
             "no_warnings": True,
             "overwrites": False,
             "nocheckcertificate": True,
-            "cookiefile": cookie,
+            "cookiefile": cookie.txt,
         }
 
         if video:
